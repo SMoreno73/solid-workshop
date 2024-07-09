@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 public class OrderExecute {
     public static void main(String[] args){
-        //Delegación de responsabilidades
         Order order = new Order(Arrays.asList("Item1", "Item2", "Item3"));
 
         Print orderPrint = new Print();

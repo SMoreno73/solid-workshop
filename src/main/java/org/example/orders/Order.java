@@ -12,8 +12,7 @@ public class Order {
     }
 
     private double calculateTotal() {
-        // Lógica para calcular el total de la orden
-        return 100.0; // simplificado
+        return 100.0; 
     }
 
     Print print = new Print();
